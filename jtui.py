@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""jtui — a fast, clean TUI for Jira."""
+"""jtui — a fast, clean TUI for Jira.
+
+Copyright (C) 2026 Gheat
+This program is free software licensed under the GNU GPL v3 or later;
+you may redistribute and modify it only under those terms. Distributed
+WITHOUT ANY WARRANTY. See the LICENSE file.
+"""
 
 from __future__ import annotations
 

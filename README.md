@@ -9,7 +9,7 @@ Your whole workspace, grouped the way triage actually works —
 
 [![python](https://img.shields.io/badge/python-3.11+-89b4fa?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
 [![built with textual](https://img.shields.io/badge/built%20with-textual-b4befe?style=flat-square)](https://github.com/Textualize/textual)
-[![license](https://img.shields.io/badge/license-MIT-a6e3a1?style=flat-square)](LICENSE)
+[![license](https://img.shields.io/badge/license-GPLv3-a6e3a1?style=flat-square)](LICENSE)
 [![jira api](https://img.shields.io/badge/jira-rest%20api-0052cc?style=flat-square&logo=jira&logoColor=white)](https://developer.atlassian.com/cloud/jira/platform/rest/v2/)
 
 <img src="assets/hero.png" alt="jtui — issue list with detail panel" width="100%">
@@ -325,7 +325,9 @@ and the [Jira REST API](https://developer.atlassian.com/cloud/jira/platform/rest
 
 ## license
 
-[MIT](LICENSE)
+[GPL-3.0](LICENSE) — free to use anywhere, work included. Forks and
+redistributions must stay open source under the same license and keep the
+credit; rebranding it as closed software and selling it is not permitted.
 
 <div align="center">
 <sub>not affiliated with Jira — just a fan of good issue trackers and good terminals</sub>
