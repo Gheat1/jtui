@@ -207,6 +207,19 @@ class DemoApp(JTUI):
                  "author": {"displayName": c["user"]["displayName"]}}
                 for c in COMMENTS
             ]}
+        if "/rest/api/2/label" in path:
+            return {"values": ["bug", "feature", "infra", "design"]}
+        if "issuetype = Epic" in (kwargs.get("params") or {}).get("jql", ""):
+            return {"issues": [
+                {"key": "CORE-100", "fields": {"summary": "Sync engine v2"}},
+                {"key": "CORE-200", "fields": {"summary": "Q3 Polish"}},
+            ]}
+        if method == "PUT" and "/rest/api/2/issue/" in path:
+            return None  # 204-style: labels / parent updates
+        if method == "POST" and path.endswith("/rest/api/2/issue"):
+            fields = (kwargs.get("json") or {}).get("fields") or {}
+            if (fields.get("issuetype") or {}).get("name") == "Epic":
+                return {"key": "CORE-900"}
         return {}
 
     async def fetch_issues(self, project_key):
