@@ -318,8 +318,9 @@ PRs welcome — keep it fast, keep it pretty.
 made by [**@Gheat1**](https://github.com/Gheat1) — issues, ideas, and PRs
 welcome over at [Gheat1/jtui](https://github.com/Gheat1/jtui).
 
-jtui is the Jira sibling of [**ltui**](https://github.com/Gheat1/ltui) (for Linear);
-the shared design system lives in [**ricekit**](https://github.com/Gheat1/ricekit).
+jtui is the Jira sibling of [**ltui**](https://github.com/Gheat1/ltui) (Linear) and
+[**sctui**](https://github.com/Gheat1/sctui) (Shortcut); the shared design system
+lives in [**ricekit**](https://github.com/Gheat1/ricekit).
 
 standing on the shoulders of [textual](https://github.com/Textualize/textual)
 and the [Jira REST API](https://developer.atlassian.com/cloud/jira/platform/rest/v2/).
