@@ -22,8 +22,9 @@ Your whole workspace, grouped the way triage actually works —
 ---
 
 > [!NOTE]
-> **on Linear instead of Jira?** jtui has a twin: [**ltui**](https://github.com/Gheat1/ltui) —
-> same app, same speed, same themes, pointed at Linear (and battle-tested daily).
+> **not on Jira?** jtui has siblings: [**ltui**](https://github.com/Gheat1/ltui) for Linear
+> (battle-tested daily) and [**sctui**](https://github.com/Gheat1/sctui) for Shortcut —
+> same app, same speed, same themes.
 
 ## why another Jira TUI?
 
